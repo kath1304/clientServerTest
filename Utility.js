@@ -6,8 +6,8 @@ class Utility{
     get a(){
         return this._a;
     }
-    set a(a){
-        this._a=a;
+    set a(b){
+        this._a=b;
     }
 }
 export {Utility};
