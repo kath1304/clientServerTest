@@ -1,5 +1,6 @@
 {
   "name": "clientservertest",
+  "type": "module",
   "version": "0.0.1",
   "description": "test",
   "main": "index.js",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/kath1304/clientServerTest#readme",
   "dependencies": {
+    "axios": "^1.2.1",
     "body-parser": "^1.20.1",
     "express": "^4.18.2",
     "nodemon": "^2.0.20"
