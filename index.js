@@ -45,15 +45,6 @@ app.post('/:a', (req, res, _next) => {
 
     })
 
-    /*PUT: usato per modificare il valore di un elemento cercandolo per parametro*/
-    app.put('/:a', (req, res, _next) => {
-
-    })
-})
-
-app.delete('/:a', (req, res, _next) =>{
-
-})
 
 /*PUT usato per modificare il valore di un elemento cercandolo per parametro*/
 app.put('/:old/:new', (req, res, _next) =>{
@@ -75,4 +66,5 @@ app.put('/:old/:new', (req, res, _next) =>{
         }
     }
     res.json('Non esiste')
+})
 })
