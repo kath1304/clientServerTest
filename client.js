@@ -12,9 +12,15 @@ response()*/
 
 //RIFERIMENTO CLIENT AL MOTODO POST
 const testPost = () => {
-    axios.post('http://localhost:3000/20')
-        .then(answer => console.log(answer['data']))
-        .catch(error => console.log(error))
+    axios.post('http://localhost:3000/',{a:20})
+        .then(answer => {
+            console.log(answer['data'])
+            axios.get('http://localhost:3000/')
+                .then(answer => console.log(answer['data']))
+                .catch(error => console.error(`${error}`));
+        })
+        .catch(error => console.error(`${error}`));
+
 }
 
 
@@ -22,30 +28,34 @@ const testPost = () => {
 const testDelete = () => {
     axios.delete('http://localhost:3000/5')
         .then(answer => console.log(answer['data']))
-        .catch(error => console.log(error))
+        .catch(error => console.error(`${error.response.status} ${error.response.statusText}`));
 }
 
 
 //RIFERIMENTO CLIENT AL METODO PUT
 const testPut = () => {
-    axios.put('http://localhost:3000/10/7')
+    axios.put('http://localhost:3000/10', {a:7})
         .then(answer => console.log(answer['data']))
-        .catch(error => console.log(error))
+        .catch(error => console.error(`${error}`));
 }
 
 
 //RIFERIMENTO CLIENT AL METODO GET
 const testGet = () => {
     axios.get('http://localhost:3000/5')
-        .then(answer => console.log(answer['data']))
-        .catch(error => console.log(error))
+        .then(({data}) => console.log(data))
+        .catch(error => console.error(`${error}`));
     axios.get('http://localhost:3000/1')
         .then(answer => console.log(answer['data']))
-        .catch(error => console.log(error))
+        .catch(error => console.error(`${error}`));
+    axios.get('http://localhost:3000/')
+        .then(answer => console.log(answer['data']))
+        .catch(error => console.error(`${error}`));
+
 }
 
-//AVVIO DEI METODI
 
+//AVVIO DEI METODI
 testGet()
 testPost()
 testPut()

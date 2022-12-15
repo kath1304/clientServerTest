@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c420d3e-e228-4a96-9806-d9ae27c62a88" name="Changes" comment="" />
+    <list default="true" id="5c420d3e-e228-4a96-9806-d9ae27c62a88" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +45,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/utente/Documents/miogithub/clientServerTest&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/riccardo/Documents/bytewiseTesi/clientServerTest&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -59,6 +63,11 @@
       <option name="presentableId" value="Default" />
       <updated>1670931070265</updated>
       <workItem from="1670931071376" duration="10109000" />
+      <workItem from="1671027329548" duration="27000" />
+      <workItem from="1671027359556" duration="19000" />
+      <workItem from="1671027394408" duration="17000" />
+      <workItem from="1671027413463" duration="2908000" />
+      <workItem from="1671093986086" duration="4552000" />
     </task>
     <servers />
   </component>
